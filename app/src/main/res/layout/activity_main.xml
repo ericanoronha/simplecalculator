@@ -75,9 +75,11 @@
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="93dp"
-        android:layout_height="28dp"
+        android:layout_width="256dp"
+        android:layout_height="108dp"
         android:layout_marginTop="40dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/equals" />
